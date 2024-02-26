@@ -1,13 +1,13 @@
 import { Fragment } from 'react';
-import Form from './components/Form';
 import GlobalStyle from './theme/globalStyles';
+import Home from './pages/Home';
 
 function App() {
 	return (
 		<>
 			<Fragment>
 				<GlobalStyle />
-				<Form />
+				<Home />
 			</Fragment>
 		</>
 	);
