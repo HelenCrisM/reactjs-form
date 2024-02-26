@@ -6,8 +6,6 @@ const GlobalStyle = createGlobalStyle`
   margin: 0;
 }
 
- 
-
 body {
   display: flex;
   margin: 5% 15%;
