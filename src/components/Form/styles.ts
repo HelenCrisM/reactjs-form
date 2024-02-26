@@ -10,6 +10,11 @@ const Row = styled.div`
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	padding-bottom: 50px;
 `;
 
-export default { Form, Row };
+const ButtonLink = styled.button`
+	padding: 8px;
+`;
+
+export default { Form, Row, ButtonLink };
