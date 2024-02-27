@@ -24,7 +24,7 @@ export default function Form() {
 				<label>Telefone *</label>
 				<input required={true} type="tel" id="ftelephone" placeholder="Digite seu telefone" />
 				<label>Email *</label>
-				<input required={true} type="email" id="femail" placeholder="Digite seu nome" />
+				<input required={true} type="email" id="femail" placeholder="Digite seu email" />
 				<label>Sua solicitação é referente a um pedido? *</label>
 				<select value={hasComplaint} defaultValue={'default'} onChange={(e) => setHasComplaint(e.target.value)}>
 					<option value="default">Selecione a solicitação</option>
